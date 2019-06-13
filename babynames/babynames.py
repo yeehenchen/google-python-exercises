@@ -42,6 +42,7 @@ def extract_names(filename):
   """
   # +++your code here+++
   names = []
+  print "it's a test"
 
   f = open(filename, 'rU')
   for line in f:
