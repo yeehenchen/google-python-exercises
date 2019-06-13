@@ -41,7 +41,11 @@ def extract_names(filename):
   ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
   """
   # +++your code here+++
+  names = []
 
+  f = open(filename, 'rU')
+  for line in f:
+    print line
   return
 
 
